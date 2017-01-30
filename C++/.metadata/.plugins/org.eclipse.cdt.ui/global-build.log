@@ -1,0 +1,739 @@
+20:44:09 **** Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/HelloWorld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorld.d" -MT"src/HelloWorld.o" -o "src/HelloWorld.o" "../src/HelloWorld.cpp"
+Finished building: ../src/HelloWorld.cpp
+ 
+Building target: HelloWorld
+Invoking: MacOS X C++ Linker
+g++  -o "HelloWorld"  ./src/HelloWorld.o   
+Finished building target: HelloWorld
+ 
+20:44:10 **** Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+20:44:14 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+make: Nothing to be done for `all'.
+20:44:29 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+make: Nothing to be done for `all'.
+20:45:56 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+20:46:11 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+20:46:27 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+20:46:47 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+20:46:56 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+20:47:01 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+make: Nothing to be done for `all'.
+20:47:08 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+20:47:12 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+make: Nothing to be done for `all'.
+20:47:22 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+make: Nothing to be done for `all'.
+20:47:31 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:23:04 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+../sieve.cpp:23:6: warning: comparison of array 'A' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+                if(A != 0)
+                   ^    ~
+../sieve.cpp:31:6: warning: unused variable 'i' [-Wunused-variable]
+        int i = 0;
+            ^
+2 warnings generated.
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:23:23 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+make: Nothing to be done for `all'.
+14:40:37 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+../sieve.cpp:31:6: warning: comparison of array 'A' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+                if(A != 0)
+                   ^    ~
+../sieve.cpp:46:9: warning: variable 'L' is uninitialized when used here [-Wuninitialized]
+                        grow(L,count);
+                             ^
+../sieve.cpp:25:7: note: initialize the variable 'L' to silence this warning
+        int*L;
+             ^
+              = NULL
+2 warnings generated.
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:41:30 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:41:50 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Undefined symbols for architecture x86_64:
+  "grow(int*, int)", referenced from:
+      sieve(int) in sieve.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [sieve] Error 1
+14:42:13 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:42:26 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+make: Nothing to be done for `all'.
+14:42:38 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:42:46 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Undefined symbols for architecture x86_64:
+  "grow(int*&, int)", referenced from:
+      sieve(int) in sieve.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [sieve] Error 1
+14:42:53 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:44:18 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:45:38 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:46:22 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+../sieve.cpp:46:9: warning: variable 'L' is uninitialized when used here [-Wuninitialized]
+                        grow(L,count);
+                             ^
+../sieve.cpp:25:7: note: initialize the variable 'L' to silence this warning
+        int*L ;
+             ^
+              = NULL
+1 warning generated.
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:48:48 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+../sieve.cpp:46:9: warning: variable 'L' is uninitialized when used here [-Wuninitialized]
+                        grow(L,count);
+                             ^
+../sieve.cpp:25:7: note: initialize the variable 'L' to silence this warning
+        int*L ;
+             ^
+              = NULL
+1 warning generated.
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:49:21 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+../sieve.cpp:46:9: warning: variable 'L' is uninitialized when used here [-Wuninitialized]
+                        grow(L,count);
+                             ^
+../sieve.cpp:25:7: note: initialize the variable 'L' to silence this warning
+        int*L ;
+             ^
+              = NULL
+1 warning generated.
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:49:39 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+../sieve.cpp:46:9: warning: variable 'L' is uninitialized when used here [-Wuninitialized]
+                        grow(L,count);
+                             ^
+../sieve.cpp:25:7: note: initialize the variable 'L' to silence this warning
+        int*L ;
+             ^
+              = NULL
+1 warning generated.
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:50:12 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+../sieve.cpp:46:9: warning: variable 'L' is uninitialized when used here [-Wuninitialized]
+                        grow(L,count);
+                             ^
+../sieve.cpp:25:7: note: initialize the variable 'L' to silence this warning
+        int*L ;
+             ^
+              = NULL
+1 warning generated.
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:50:49 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+../sieve.cpp:46:9: warning: variable 'L' is uninitialized when used here [-Wuninitialized]
+                        grow(L,count);
+                             ^
+../sieve.cpp:25:7: note: initialize the variable 'L' to silence this warning
+        int*L ;
+             ^
+              = NULL
+1 warning generated.
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:51:19 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+../sieve.cpp:46:9: warning: variable 'L' is uninitialized when used here [-Wuninitialized]
+                        grow(L,count);
+                             ^
+../sieve.cpp:25:7: note: initialize the variable 'L' to silence this warning
+        int*L ;
+             ^
+              = NULL
+1 warning generated.
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:51:47 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+../sieve.cpp:46:9: warning: variable 'L' is uninitialized when used here [-Wuninitialized]
+                        grow(L,count);
+                             ^
+../sieve.cpp:25:7: note: initialize the variable 'L' to silence this warning
+        int*L ;
+             ^
+              = NULL
+1 warning generated.
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:52:13 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:52:34 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+make: Nothing to be done for `all'.
+14:52:55 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+14:56:54 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+../sieve.cpp:22:21: warning: variable 'count' is uninitialized when used here [-Wuninitialized]
+        for(int i = 0 ; i< count;i++)
+                           ^~~~~
+../sieve.cpp:18:11: note: initialize the variable 'count' to silence this warning
+        int count;
+                 ^
+                  = 0
+../sieve.cpp:49:4: error: reference to 'count' is ambiguous
+                        count++;
+                        ^
+../sieve.cpp:13:12: note: candidate found by name lookup is 'count'
+static int count = 0;
+           ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__bit_reference:312:1: note: candidate found by name lookup is 'std::__1::count'
+count(__bit_iterator<_Cp, _IsConst> __first, __bit_iterator<_Cp, _IsConst> __last, const _Tp& __value_)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:1112:1: note: candidate found by name lookup is 'std::__1::count'
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+../sieve.cpp:50:11: error: reference to 'count' is ambiguous
+                        grow(L,count);
+                               ^
+../sieve.cpp:13:12: note: candidate found by name lookup is 'count'
+static int count = 0;
+           ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__bit_reference:312:1: note: candidate found by name lookup is 'std::__1::count'
+count(__bit_iterator<_Cp, _IsConst> __first, __bit_iterator<_Cp, _IsConst> __last, const _Tp& __value_)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:1112:1: note: candidate found by name lookup is 'std::__1::count'
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+1 warning and 2 errors generated.
+make: *** [sieve.o] Error 1
+14:57:37 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+../sieve.cpp:48:4: error: reference to overloaded function could not be resolved; did you mean to call it?
+                        count++;
+                        ^~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:1112:1: note: possible target for call
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__bit_reference:312:1: note: possible target for call
+count(__bit_iterator<_Cp, _IsConst> __first, __bit_iterator<_Cp, _IsConst> __last, const _Tp& __value_)
+^
+../sieve.cpp:49:4: error: no matching function for call to 'grow'
+                        grow(L,count);
+                        ^~~~
+../sieve.cpp:11:6: note: candidate function not viable: no overload of 'count' matching 'int' for 2nd argument
+void grow(int*& L,int count);
+     ^
+2 errors generated.
+make: *** [sieve.o] Error 1
+15:02:17 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+../sieve.cpp:12:22: error: redefinition of parameter 'n'
+int* sieve(int n,int&n);
+                     ^
+../sieve.cpp:12:16: note: previous declaration is here
+int* sieve(int n,int&n);
+               ^
+../sieve.cpp:20:10: error: no matching function for call to 'sieve'
+        final = sieve(n,&count);
+                ^~~~~
+../sieve.cpp:12:6: note: candidate function not viable: no known conversion from 'int *' to 'int &' for 2nd argument; remove &
+int* sieve(int n,int&n);
+     ^
+2 errors generated.
+make: *** [sieve.o] Error 1
+15:02:32 **** Clean-only build of configuration Debug for project HelloWorld ****
+make clean 
+rm -rf  ./src/HelloWorld.o  ./src/HelloWorld.d  HelloWorld
+ 
+15:02:32 **** Clean-only build of configuration Debug for project sieve ****
+make clean 
+rm -rf  ./sieve.o  ./sieve.d  sieve
+ 
+15:03:00 **** Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+15:04:33 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+../sieve.cpp:47:4: error: reference to 'count' is ambiguous
+                        count++;
+                        ^
+../sieve.cpp:11:5: note: candidate found by name lookup is 'count'
+int count =0;
+    ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__bit_reference:312:1: note: candidate found by name lookup is 'std::__1::count'
+count(__bit_iterator<_Cp, _IsConst> __first, __bit_iterator<_Cp, _IsConst> __last, const _Tp& __value_)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:1112:1: note: candidate found by name lookup is 'std::__1::count'
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+../sieve.cpp:48:11: error: reference to 'count' is ambiguous
+                        grow(L,count);
+                               ^
+../sieve.cpp:11:5: note: candidate found by name lookup is 'count'
+int count =0;
+    ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__bit_reference:312:1: note: candidate found by name lookup is 'std::__1::count'
+count(__bit_iterator<_Cp, _IsConst> __first, __bit_iterator<_Cp, _IsConst> __last, const _Tp& __value_)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:1112:1: note: candidate found by name lookup is 'std::__1::count'
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+2 errors generated.
+make: *** [sieve.o] Error 1
+15:04:58 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+../sieve.cpp:47:4: error: reference to 'count' is ambiguous
+                        count++;
+                        ^
+../sieve.cpp:11:12: note: candidate found by name lookup is 'count'
+static int count =0;
+           ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__bit_reference:312:1: note: candidate found by name lookup is 'std::__1::count'
+count(__bit_iterator<_Cp, _IsConst> __first, __bit_iterator<_Cp, _IsConst> __last, const _Tp& __value_)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:1112:1: note: candidate found by name lookup is 'std::__1::count'
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+../sieve.cpp:48:11: error: reference to 'count' is ambiguous
+                        grow(L,count);
+                               ^
+../sieve.cpp:11:12: note: candidate found by name lookup is 'count'
+static int count =0;
+           ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__bit_reference:312:1: note: candidate found by name lookup is 'std::__1::count'
+count(__bit_iterator<_Cp, _IsConst> __first, __bit_iterator<_Cp, _IsConst> __last, const _Tp& __value_)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:1112:1: note: candidate found by name lookup is 'std::__1::count'
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+2 errors generated.
+make: *** [sieve.o] Error 1
+15:05:49 **** Clean-only build of configuration Debug for project HelloWorld ****
+make clean 
+rm -rf  ./src/HelloWorld.o  ./src/HelloWorld.d  HelloWorld
+ 
+15:05:49 **** Clean-only build of configuration Debug for project sieve ****
+make clean 
+rm -rf  ./sieve.o  ./sieve.d  sieve
+ 
+15:05:52 **** Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+15:09:14 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+15:12:47 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+make: Nothing to be done for `all'.
+15:13:21 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+15:13:38 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+make: Nothing to be done for `all'.
+15:13:52 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+make: Nothing to be done for `all'.
+15:16:19 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+15:17:44 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+15:17:58 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+15:18:16 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+15:19:25 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+Building file: ../sieve.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
+Finished building: ../sieve.cpp
+ 
+Building target: sieve
+Invoking: MacOS X C++ Linker
+g++  -o "sieve"  ./sieve.o   
+Finished building target: sieve
+ 
+15:19:33 **** Incremental Build of configuration Debug for project sieve ****
+make all 
+make: Nothing to be done for `all'.

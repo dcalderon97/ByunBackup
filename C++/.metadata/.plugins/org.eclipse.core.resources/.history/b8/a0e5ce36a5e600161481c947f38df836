@@ -1,0 +1,23 @@
+/*
+ * sieve.cpp
+ *
+ *  Created on: Jan 29, 2017
+ *      Author: danielcalderon
+ */
+#include<iostream>
+#include<cstdlib>
+
+using namespace std;
+
+int main()
+{
+	int SIZE;
+	cout << "Please enter a number to get prime numbers." << endl;
+	cin >> SIZE;
+	bool ara[SIZE];
+	return EXIT_SUCCESS;
+}
+
+
+
+

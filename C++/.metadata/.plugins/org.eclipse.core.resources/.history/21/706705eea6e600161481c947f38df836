@@ -1,0 +1,38 @@
+/*
+ * sieve.cpp
+ *
+ *  Created on: Jan 29, 2017
+ *      Author: danielcalderon
+ */
+#include<iostream>
+#include<cstdlib>
+
+using namespace std;
+
+int main()
+{
+	int SIZE;
+	cout << "Please enter a number to get prime numbers." << endl;
+	cin >> SIZE;
+	bool ara[SIZE];
+	for(int i = 0 ; i < SIZE; i++)
+	{
+		ara[i] = "true";
+	}
+	for(int k = 2; k*k<=SIZE;k++)
+	{
+		if(ara[k] == true)
+		{
+			for(int l = k*2; l<=SIZE;l += k)
+				ara[l] = false;
+		}
+	}
+	for(int m = 2;m<=SIZE;m++)
+		if(ara[m])
+			cout << m << " ";
+	return EXIT_SUCCESS;
+}
+
+
+
+

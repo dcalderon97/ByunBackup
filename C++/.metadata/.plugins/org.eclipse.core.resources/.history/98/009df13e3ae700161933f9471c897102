@@ -1,0 +1,29 @@
+/*
+ * sieve.cpp
+ *
+ *  Created on: Jan 29, 2017
+ *      Author: danielcalderon
+ */
+#include<iostream>
+#include<cstdlib>
+#include<cmath>
+using namespace std;
+
+int main()
+{
+	int userInput;
+	cout << "Please enter the number to get all its primes" << endl;
+	cin >> userInput;
+	int upToInterger[userInput];
+	int j = 0;
+	for(int p = 2; p < userInput;p++)
+		upToInterger[p] = p;
+	for(int p = 2; p < floor(sqrt(userInput));p++)
+		if(upToInterger != 0)
+
+	return EXIT_SUCCESS;
+}
+
+
+
+

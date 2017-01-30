@@ -1,0 +1,69 @@
+/*
+ * sieve.cpp
+ *
+ *  Created on: Jan 29, 2017
+ *      Author: danielcalderon
+ */
+#include<iostream>
+#include<cstdlib>
+#include<cmath>
+using namespace std;
+void grow(int*& L,int count);
+int* sieve(int n,int&n);
+int main()
+{
+	int n;
+	int* final;
+	int count;
+	cout << "Please enter the number to get all its primes" << endl;
+	cin >> n;
+	final = sieve(n,&count);
+	cout <<final[0];
+	return EXIT_SUCCESS;
+}
+int* sieve(int n,int&count)
+{
+	int A[n];
+	int*L ;
+	int j = 0;
+	for(int p = 2; p < n;p++)
+		A[p] = p;
+	for(int p = 2; p < floor(sqrt(n));p++)
+	{
+		if(A[p] != 0)
+			j = p*p;
+			while(j<=n)
+			{
+				A[j] = 0;
+				j = j+p;
+			}
+	}
+	int i = 0;
+
+	for(int p = 2; p < n;p++)
+	{
+		if(A[p] != 0)
+		{
+			count++;
+			grow(L,count);
+			L[i] = p;
+			cout << "gets to end" <<endl;
+			i +=1;
+		}
+	}
+	return L;
+}
+void grow(int*& L,int count)
+{
+	cout << "Goes here" << endl;
+	int *n = new int[count+1];
+	cout << "Goes here1" << endl;
+	copy(L,L+count-1,n);
+	cout << "Goes here2" << endl;
+	if(count>1)
+		delete[]L;
+	cout << "Goes here3" << endl;
+	L = n;
+}
+
+

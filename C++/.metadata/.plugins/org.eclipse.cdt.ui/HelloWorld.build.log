@@ -1,0 +1,7 @@
+15:05:49 **** Clean-only build of configuration Debug for project HelloWorld ****
+make clean 
+rm -rf  ./src/HelloWorld.o  ./src/HelloWorld.d  HelloWorld
+ 
+
+15:05:49 Build Finished (took 68ms)
+
