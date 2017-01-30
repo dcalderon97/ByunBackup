@@ -1,0 +1,18 @@
+import java.util.Arrays;
+
+public class SortedString {
+	String[] sortList(String[] args)
+	{
+		String[] ara = new String[200];
+		System.arraycopy(args, 0, ara, 0, args.length);
+		Arrays.sort(ara);
+		return ara;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+		String[] ara = new String[5];
+		String[] sortAra = new String[5];
+		System.arraycopy(sortList(ara),0,sortAra,0,5);
+}

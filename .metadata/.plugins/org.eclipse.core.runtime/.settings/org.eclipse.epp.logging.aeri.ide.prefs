@@ -1,0 +1,8 @@
+configured=true
+eclipse.preferences.version=1
+reporterEmail=calderon.daniel08@gmail.com
+reporterName=Daniel Claderon
+resetSendMode=KEEP
+resetSendModeOn=0
+sendMode=NOTIFY
+servers/org.eclipse.epp.logging.aeri.ide.server/configured=true

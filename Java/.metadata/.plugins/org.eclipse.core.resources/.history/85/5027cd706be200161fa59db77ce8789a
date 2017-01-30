@@ -1,0 +1,17 @@
+package exercise2;
+
+public class DisplayName {
+
+	public static void main(String[] args) {
+		String first  = "Daniel";
+		String last = "Calderon";
+		String id = "cald3384";
+		String major = "CS";
+		System.out.println("My name is: " + first + last);
+		System.out.println("My id is: "+ id);
+		System.out.println("My Major is: "+ major );
+		System.out.println("My favorit song is: Dont know"  );
+
+	}
+
+}

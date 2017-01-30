@@ -1,0 +1,15 @@
+import java.util.Arrays;
+
+public class SortedString {
+	String sortList(String[] args)
+	{
+		String[] ara = new String 200;
+		ara = Arrays.sort(args);
+		return ara;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+}

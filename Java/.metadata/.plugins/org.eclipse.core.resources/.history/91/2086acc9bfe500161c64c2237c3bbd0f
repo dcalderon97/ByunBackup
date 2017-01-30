@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class Histogram {
+
+	public static void main(String[] args) {
+		int size;
+		int highestOccurence;
+		int ocurence;
+		int temp;
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("How many intergers would you like to enter[max 30]?");
+		size = keyboard.nextInt();
+		int[] ara = new int[size];
+		System.out.println("Entet " + size + " numbers.");
+		for(int i = 0;i<size;i++)
+		{
+			ara[i] = keyboard.nextInt();
+		}
+		int[] count = new int[10];
+		for(int i =0;i<ara.length;i++)
+		{
+			temp = ara[i];
+			count[temp]++;
+		}
+		highestOccurence = count[0];
+		for(int i = 1; i < count.length;i++)
+		{
+			if(count[i] > highestOccurence)
+				highestOccurence = count[i];
+		}
+		System.out.println("=======Vertical Bar========");
+		for(int i = 1; i <= highestOccurence;i++)
+		{
+			System.out.print("| "+ i + " |");
+		}
+		System.out.println("===========================");
+		System.out.println("| NO | 0 1 2 3 4 5 6 7 8 9");
+		System.out.println("===========================");
+	}
+
+}

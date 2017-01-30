@@ -1,0 +1,49 @@
+
+import java.util.Scanner;
+public class DrawDiagram {
+	
+	void printSquare(int size)
+	{
+		for(int i = 0; i < size;i++)
+		{
+			for(int j = 0; j < size-1; j++)
+			{
+				System.out.print('*');
+			}
+			System.out.println('*');
+		}
+	}
+	void printTriangel(int size)
+	{
+		for(int i  = 0; i <= size;i++)
+		{
+			for(int  j = 0; j < i ;j++)
+			{
+				System.out.print(' ');
+			}
+			System.out.println("*");
+		}
+			
+	}
+	void printDiamond(int size)
+	{
+		for(int i =0; i<=size+2;i++)
+		{
+			for(int j = 0; j < i;j++)
+			{
+				for()
+			}
+		}
+	}
+	public static void main(String[] args) {
+		int userChoice;
+		int tracker = 0;
+		DrawDiagram functions = new DrawDiagram();;
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Enter size: ");
+		userChoice = keyboard.nextInt();
+		functions.printSquare(userChoice);
+		functions.printTriangel(userChoice);
+	}
+
+}

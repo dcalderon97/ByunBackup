@@ -1,0 +1,24 @@
+import java.util.Collections;
+import java.util.Scanner;
+import java.awt.List;
+
+public class SortedString {
+	static void sortList(List args)
+	{
+		Collections.sort((java.util.List<String>) args);
+	}
+	public static void main(String[] args) {
+		String filePath;
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Enter file path for file");
+		filePath = keyboard.nextLine();
+		ufferedReader abc = new BufferedReader(new FileReader(myfile));
+		List<String> lines = new ArrayList<String>();
+
+		while((String line = abc.readLine()) != null) {
+		    lines.add(line);
+		    System.out.println(data);
+		}
+		abc.close();
+	}
+}

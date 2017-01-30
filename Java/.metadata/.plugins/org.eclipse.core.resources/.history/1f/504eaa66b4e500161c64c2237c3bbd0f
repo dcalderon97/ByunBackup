@@ -1,0 +1,23 @@
+import java.util.Collections;
+import java.util.Scanner;
+import java.awt.List;
+import java.io.File;
+
+public class SortedString {
+	static void sortList(List args)
+	{
+		Collections.sort((java.util.List<String>) args);
+	}
+	public static void main(String[] args) {
+		String filePath;
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Enter file path for file");
+		filePath = keyboard.nextLine();
+		Scanner sc = new Scanner(new File(filePath));
+	      while (sc.hasNext()) {
+	        String str = sc.nextLine();
+	        System.out.println(str);
+	      }
+	      sc.close();
+	}
+}

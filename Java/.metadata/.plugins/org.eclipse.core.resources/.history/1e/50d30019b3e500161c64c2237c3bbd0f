@@ -1,0 +1,16 @@
+import java.util.Collections;
+import java.util.Scanner;
+import java.awt.List;
+
+public class SortedString {
+	static void sortList(List args)
+	{
+		Collections.sort((java.util.List<String>) args);
+	}
+	public static void main(String[] args) {
+		DrawDiagram functions = new DrawDiagram();
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Enter file path for file");
+		userChoice = keyboard.nextInt();
+	}
+}

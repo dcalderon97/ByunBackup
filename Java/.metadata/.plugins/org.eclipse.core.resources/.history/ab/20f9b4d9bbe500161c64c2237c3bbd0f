@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Histogram {
+
+	public static void main(String[] args) {
+		int size;
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("How many intergers would you like to enter?");
+		size = nextInt();
+	}
+
+}

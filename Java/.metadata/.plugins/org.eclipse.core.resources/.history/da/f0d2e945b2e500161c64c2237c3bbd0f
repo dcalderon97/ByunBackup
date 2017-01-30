@@ -1,0 +1,11 @@
+import java.util.Collections;
+
+public class SortedString {
+	static void sortList(List args)
+	{
+		Collections.sort(args);
+	}
+	public static void main(String[] args) {
+
+	}
+}
