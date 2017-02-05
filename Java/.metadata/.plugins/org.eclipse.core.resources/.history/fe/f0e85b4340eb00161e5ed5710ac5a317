@@ -1,0 +1,12 @@
+
+public class ATM {
+	private int bankBalance;
+	void setATM(int balance,String location)
+	{
+		
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

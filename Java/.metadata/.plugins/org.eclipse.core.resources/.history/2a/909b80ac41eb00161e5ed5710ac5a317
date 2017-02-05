@@ -1,0 +1,56 @@
+
+public class ATM {
+	private int bankBalance;
+	private String bankLocation;
+	private String bankName;
+	private int serialNumber;
+	//Constructor
+	ATM()
+	{
+		bankBalance = 100;
+		serialNumber = 0;
+		bankLocation = "UNKNOWN";
+		bankName = "UNKNOWN";
+	}
+	//Overloaded Constructor
+	ATM(int serialNum,String name, String location)
+	{
+		serialNumber = serialNum;
+		bankName = name;
+		bankLocation = location;
+	}
+	//Getters
+	int getBankBalance()
+	{
+		return bankBalance;
+	}
+	String getBankLocation()
+	{
+		return bankLocation;
+	}
+	String getBankName()
+	{
+		return bankName;
+	}
+	//Methods
+	void setATM(int serialNum,String location)
+	{
+		serialNumber = serialNum;
+		bankLocation = location;
+		
+	}
+	void addFund(int amount)
+	{
+		bankBalance += amount;
+	}
+	void displayMenu()
+	{
+		
+	}
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}

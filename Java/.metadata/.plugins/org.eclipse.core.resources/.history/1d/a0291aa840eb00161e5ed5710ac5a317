@@ -1,0 +1,29 @@
+
+public class ATM {
+	private int bankBalance;
+	private String bankLocation;
+	private String bankName;
+	private int serialNumber;
+	//Getters
+	int getBankBalance()
+	{
+		return bankBalance;
+	}
+	String getBankLocation()
+	{
+		return bankLocation;
+	}
+	String getBankName()
+	{
+		return bankName;
+	}
+	//Methods
+	void setATM(int serialNumber,String location)
+	{
+		this->serialNumber = serialNumber;
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

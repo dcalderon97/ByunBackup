@@ -1,0 +1,143 @@
+
+public class ATM {
+	//Class to hold user information
+	class PATRON{
+		String patronName;
+		int pinNumber;
+		double patronFunds;
+		//Constructor
+		PATRON()
+		{
+			patronName = null;
+			pinNumber = 0;
+			patronFunds = 0;
+		}
+		PATRON(String name, int pin, int funds)
+		{
+			patronName = name;
+			pinNumber = pin;
+			patronFunds = funds;
+		}
+		void setPatronInfo(String name, int pin, double funds)
+		{
+			patronName = name;
+			pinNumber = pin;
+			patronFunds = funds;
+		}
+		String getName()
+		{
+			return patronName;
+		}
+		int getPin()
+		{
+			return pinNumber;
+		}
+	}
+	private PATRON[] users = new PATRON[10];
+	private double bankBalance;
+	private String bankLocation;
+	private String bankName;
+	private int serialNumber;
+	//Constructor
+	ATM()
+	{
+		bankBalance = 100.00;
+		serialNumber = 0;
+		bankLocation = "UNKNOWN";
+		bankName = "UNKNOWN";
+		users[0].setPatronInfo("Alice",1234,5000.00);
+		users[1].setPatronInfo("Tom", 2000, 200.00);
+		users[2].setPatronInfo("Monica", 3000, 50.00);
+		users[3].setPatronInfo("Michael", 7777, 0.00);
+		users[4].setPatronInfo("John", 8000, 500.00);
+		users[5].setPatronInfo("Jane", 2222, 500.00);
+		users[6].setPatronInfo("Robert", 2323, 200.00);
+		users[7].setPatronInfo("Owen", 4455, 50.00);
+		users[8].setPatronInfo("Chris", 8787, 10.00);
+		users[9].setPatronInfo("Rebecca", 8080, 555.55);
+	}
+	//Overloaded Constructors
+	ATM(int serialNum,String name, String location)
+	{
+		bankBalance = 100.00;
+		serialNumber = serialNum;
+		bankName = name;
+		bankLocation = location;
+	}
+	ATM(String name)
+	{
+		bankBalance = 100.00;
+		bankName = name;
+		bankLocation = "UNKNOWN";
+	}
+	//Getters
+	double getBankBalance()
+	{
+		return bankBalance;
+	}
+	String getBankLocation()
+	{
+		return bankLocation;
+	}
+	String getBankName()
+	{
+		return bankName;
+	}
+	//Methods
+	void setATM(int serialNum,String location)
+	{
+		serialNumber = serialNum;
+		bankLocation = location;
+		
+	}
+	void addFund(int amount)
+	{
+		bankBalance += amount;
+	}
+	void displayMenu()
+	{
+		System.out.println("===== ATM Transaction Menu =====");
+		System.out.println("1. Withdrawl");
+		System.out.println("2. Deposit");
+		System.out.println("3. Transfer");
+	}
+	void withdrawal(String name,int pin, int amount)
+	{
+		for(int i = 0 ; i < 10; i++)
+		{
+			if(users[i].getName.equals(name) &&  )
+		}
+	}
+	//Overloaded Output
+	@Override
+	public String toString()
+	{
+		return "Serial Number: " + serialNumber+"\n"+"Bank Name: " + bankName +"\n"+
+				"Location: " + bankLocation + "\n" + "Balance: " + bankBalance + "\n";
+	}
+	public static void main(String[] args) {
+		ATM machine1 = new ATM("OtterUnion");
+		ATM machine2 = new ATM(200,"BOA","Library");
+		System.out.println("===== Welcome to CSUMB ATM Machine =====");
+		System.out.println(machine1);
+		System.out.println(machine1);
+        System.out.println("");
+        System.out.println(machine2);
+        System.out.println("\n===== Equality Checking =====");
+        System.out.println(machine1.equals(machine2));
+        System.out.println("");
+        machine1.setATM(100, "BIT110");
+        machine1.addFund(400);
+        System.out.println(machine1);
+        System.out.println("");
+        machine1.displayMenu();
+        machine1.withdrawal("Alice", 7777, 10); 
+        machine1.withdrawal("NoAlice", 1234, 10);
+        machine1.withdrawal("Alice", 1234, 10000);
+        machine1.withdrawal("Alice", 1234, 10);
+        machine1.withdrawal("Alice", 1234, 2000);
+        System.out.println("\n===== Machine Status =====");
+        machine1.status();
+	}
+	
+}
