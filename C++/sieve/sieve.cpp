@@ -1,8 +1,9 @@
 /*
- * sieve.cpp
- *
- *  Created on: Jan 29, 2017
- *      Author: danielcalderon
+ * Title: siece.cpp
+ * Abstract: Calculates the prime numbers from an input using Sieve of Eratosthenes algorithm
+ * Author: Daniel Calderon
+ * ID: 3083
+ * Date: 2/3/17
  */
 #include<iostream>
 #include<cstdlib>
@@ -15,7 +16,7 @@ int main()
 	int n;
 	int* final;
 	int size;
-	cout << "Please enter the number to get all its primes" << endl;
+	cout << "Enter a number: " ;
 	cin >> n;
 	final = sieve(n,size);
 	cout << "Prime Numbers: ";

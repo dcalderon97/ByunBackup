@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class help {
+	public static void main(String[] args){
+		Scanner keyboard = new Scanner(System.in);
+		try{
+			System.out.println("Enter Num");
+			int user = keyboard.nextInt();
+		}
+		catch(Exception e){
+			System.out.println("Hello");
+		}
+	}
+}

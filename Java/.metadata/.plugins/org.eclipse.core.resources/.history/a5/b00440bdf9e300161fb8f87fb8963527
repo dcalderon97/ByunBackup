@@ -1,7 +1,0 @@
-import java.util.Scanner;
-public void DrawDiagram()
-{
-	Scanner keyboard = new Scanner(System.in);
-	System.out.println("Enter size of which you want to create a triangel,square, adn diamond");
-	int size = keyboard.nextInt();
-}

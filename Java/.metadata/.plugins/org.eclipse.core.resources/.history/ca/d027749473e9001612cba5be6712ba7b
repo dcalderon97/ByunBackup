@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Factorial {
+	public static void main(String[] args){
+		Scanner keyboard = new Scanner(System.in);
+		int userInput;
+		String junk;
+		boolean correct = false;
+		while(!correct)
+		{
+			try
+			{
+				System.outprintln("Enter an Interger Number: ");
+				userInput = keyboard.nextInt()
+;
+				}
+			catch(Exception e)
+			{
+				System.out.println("Not Correct Format");
+				junk = keyboard.nextLine();
+			}
+		}
+	}
+}

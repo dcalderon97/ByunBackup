@@ -1,0 +1,16 @@
+package exercise;
+
+import java.util.Scanner;
+
+public class ExceptDemo {
+	public static void main(String[]args)
+	{
+		try{
+			int keyboard = new Scanner(System.in);
+			System.out.println("Please enter whole number");
+			keyboard = keyboard.nextInt();
+		}
+		catch{
+		}
+	}
+}

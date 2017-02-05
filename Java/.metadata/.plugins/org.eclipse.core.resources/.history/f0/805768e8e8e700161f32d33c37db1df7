@@ -1,0 +1,12 @@
+package exercise;
+
+import java.util.Scanner;
+
+public class ExceptDemo {
+	try{
+		Scanner keyboard = new Scanner(System.in);
+		
+	}
+	catch{
+	}
+}

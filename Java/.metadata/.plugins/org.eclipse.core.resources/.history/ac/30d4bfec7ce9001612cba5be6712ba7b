@@ -1,0 +1,118 @@
+import java.util.Scanner;
+
+public class GameCar {
+	//Constructo
+	GameCar(){
+		carName = null;
+		carColor = null;
+		carPos = 0;
+	}
+	//Overloaded Constructor
+	GameCar(String name,String color,int position)
+	{
+		carName = name;
+		carColor = color;
+		carPos = position;
+	}
+	//Object Variables
+	private String carName;
+	private String carColor;
+	private int carPos;
+	//Object Setters
+	void setColor(String newColor){
+		carColor = newColor;
+	}
+	void setName(String newName){
+		carName = newName;
+	}
+	void setCar(String name,String color,int pos)
+	{
+		carName = name;
+		carColor = color;
+		carPos = pos;
+	}
+	//Object Getters
+	String getName(){
+		return carName;
+	}
+	int getPos(){
+
+		return carPos;
+	}
+	String getColor(){
+		return carColor;
+	}
+	void getCarInfo(){
+		Scanner keyboard = new Scanner(System.in);
+		if(carName == null)
+		{
+			System.out.println("Enter Car name");
+			carName = keyboard.nextLine();
+		}
+		if(carColor == null)
+		{
+			System.out.println("Enter Car Color");
+			carColor = keyboard.nextLine();
+		}
+		if(carPos == 0)
+		{
+			System.out.println("Enter the starting position");
+			carPos = keyboard.nextInt();
+		}
+		System.out.println("Car name is: " + carName);
+		System.out.println("Car color is: " + carColor);
+		System.out.println("Car current Postion is: " + carPos);	
+	}
+	//Object Member Methods
+	void moveForward(int distance){
+		carPos += distance;
+	}
+	void moveBackward(int distance){
+		carPos -= distance;
+	}
+	void race(GameCar obj2){
+		if(this.carPos < obj2.getPos()){
+			System.out.println(obj2.getName() + " win: "+ this.carName+
+			" ("+this.carPos+") vs. " +obj2.getName() + "(" + obj2.getPos() +")");
+		}
+		else if( this.carPos > obj2.getPos())
+			System.out.println(this.getName() + " win: "+ obj2.carName+
+			" ("+obj2.carPos+") vs. " +this.getName() + "(" + this.getPos() +")");
+		else
+			System.out.println("Tie: " + this.getName() +"("+this.carPos+")" + 
+		obj2.getName() + "(" + obj2.getName()+")");
+	}
+	String equal(GameCar obj2){
+		if(this.carName == obj2.getName())
+			if(this.carColor == obj2.getColor())
+				if(this.carPos == obj2.getPos())
+					return "True";
+		return "False";
+	}
+	
+	public static void main(String[] args) {
+		GameCar car1 = new GameCar("Mybuddy","Red",19);
+		GameCar car2 = new GameCar ();
+		
+		car1.moveForward(5);
+		car1.moveBackward(2);
+		car1.setColor("Black");
+		System.out.println(car1.toString());
+		  
+		car2.getCarInfo();
+		car2.moveForward(7);
+		car2.moveForward(3);
+		System.out.println(car2.toString());
+		car1.race(car2);        
+		  
+		car1.moveForward(10);   
+		car1.race(car2);        
+		
+		car1.setCar("BlueJay", "Blue", 30);   
+		car1.race(car2);    
+		System.out.println("Same cars? " + car1.equals(car2));
+		
+
+	}
+
+}

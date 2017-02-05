@@ -27,7 +27,7 @@ public class SortedString {
 	        Scanner fileInput = new Scanner(new File(filePath));
 	        while (fileInput.hasNext()) 
 	        {
-	          String str = fileInput.nextLine();
+	          String str = fileInput.nextLine();                       
 	          containerString.add(str);
 	        }
 	        fileInput.close();

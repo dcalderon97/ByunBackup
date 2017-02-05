@@ -17,14 +17,18 @@ public class Histogram {
 		System.out.println("How many intergers would you like to enter[max 30]?");
 		size = keyboard.nextInt();
 		int[] ara = new int[size];
-		System.out.println("Entet " + size + " numbers.");
+		
+		System.out.println("Enter " + size + " numbers.");
 		for(int i = 0;i<size;i++)
 		{
 			ara[i] = keyboard.nextInt();
 		}
+		
 		int[] count = new int[10];
 		for(int i =0;i<ara.length;i++)
 		{
+			
+	
 			temp = ara[i];
 			count[temp]++;
 		}
@@ -34,13 +38,19 @@ public class Histogram {
 			if(count[i] > highestOccurence)
 				highestOccurence = count[i];
 		}
+		System.out.println("Number     Occurence");
+		for(int i = 0; i < count.length;i++)
+		{
+			if(count[i] !=0)
+			System.out.println(i + "          " + count[i]);
+		}
 		System.out.println("=======Vertical Bar==========");
 		for(int i = highestOccurence; i >= 1;i--)
 		{
 			System.out.print("|  "+ i + " | ");
 			for(int k = 0; k < count.length;k++)
 			{
-				if(count[k] == i)
+				if(count[k] == i || count[k]>i)
 				{
 					System.out.print("* ");
 				}
