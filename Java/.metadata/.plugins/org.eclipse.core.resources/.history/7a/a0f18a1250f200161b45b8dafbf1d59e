@@ -1,0 +1,14 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+public class Bank {
+	void readData(String path) {
+		int numOfCustomers;
+		int numOfAccounts;
+
+	}
+	public static void main(String args){
+		
+	}
+}

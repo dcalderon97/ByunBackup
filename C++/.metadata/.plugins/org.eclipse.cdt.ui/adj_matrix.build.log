@@ -1,0 +1,15 @@
+19:47:35 **** Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+
+19:47:38 Build Finished (took 2s.809ms)
+

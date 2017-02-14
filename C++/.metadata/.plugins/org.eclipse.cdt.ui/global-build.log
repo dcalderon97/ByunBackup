@@ -776,3 +776,456 @@ Invoking: MacOS X C++ Linker
 g++  -o "sieve"  ./sieve.o   
 Finished building target: sieve
  
+09:41:49 **** Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/HelloWorld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorld.d" -MT"src/HelloWorld.o" -o "src/HelloWorld.o" "../src/HelloWorld.cpp"
+Finished building: ../src/HelloWorld.cpp
+ 
+Building target: HelloWorld
+Invoking: MacOS X C++ Linker
+g++  -o "HelloWorld"  ./src/HelloWorld.o   
+Finished building target: HelloWorld
+ 
+09:41:51 **** Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+../adj_matrix.cpp:17:6: warning: unused variable 'numberEdges' [-Wunused-variable]
+        int numberEdges = fileIn >> eatNum;
+            ^
+1 warning generated.
+Finished building: ../adj_matrix.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o   
+Finished building target: adj_matrix
+ 
+09:41:51 **** Build of configuration Debug for project sieve ****
+make all 
+make: Nothing to be done for `all'.
+09:42:12 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+../adj_matrix.cpp:17:6: warning: unused variable 'numberEdges' [-Wunused-variable]
+        int numberEdges = fileIn >> eatNum;
+            ^
+1 warning generated.
+Finished building: ../adj_matrix.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o   
+Finished building target: adj_matrix
+ 
+09:43:44 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+../adj_matrix.cpp:17:6: warning: unused variable 'numberEdges' [-Wunused-variable]
+        int numberEdges = fileIn >> eatNum;
+            ^
+1 warning generated.
+Finished building: ../adj_matrix.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o   
+Finished building target: adj_matrix
+ 
+09:44:14 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o   
+Finished building target: adj_matrix
+ 
+09:44:49 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o   
+Finished building target: adj_matrix
+ 
+09:45:13 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o   
+Finished building target: adj_matrix
+ 
+09:45:43 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+../adj_matrix.cpp:22:33: error: unknown type name 's'
+        cout << numberVertices << endl;s
+                                       ^
+../adj_matrix.cpp:23:6: error: expected ';' at end of declaration
+        cout << numberEdges << endl;
+            ^
+            ;
+2 errors generated.
+make: *** [adj_matrix.o] Error 1
+09:46:02 **** Clean-only build of configuration Debug for project HelloWorld ****
+make clean 
+rm -rf  ./src/HelloWorld.o  ./src/HelloWorld.d  HelloWorld
+ 
+09:46:02 **** Clean-only build of configuration Debug for project adj_matrix ****
+make clean 
+rm -rf  ./adj_matrix.o  ./adj_matrix.d  adj_matrix
+ 
+09:46:02 **** Clean-only build of configuration Debug for project sieve ****
+make clean 
+rm -rf  ./sieve.o  ./sieve.d  sieve
+ 
+09:46:10 **** Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o   
+Finished building target: adj_matrix
+ 
+09:46:31 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o   
+Finished building target: adj_matrix
+ 
+09:46:44 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+make: Nothing to be done for `all'.
+11:05:52 **** Build of configuration Debug for project adj_matrix ****
+make all 
+make: Nothing to be done for `all'.
+11:19:43 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+../prove_nancy_wrong.cpp:20:6: warning: unused variable 'numberEdges' [-Wunused-variable]
+        int numberEdges = eatNum;
+            ^
+1 warning generated.
+Finished building: ../prove_nancy_wrong.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+duplicate symbol _main in:
+    ./adj_matrix.o
+    ./prove_nancy_wrong.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [adj_matrix] Error 1
+11:20:32 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+Finished building: ../prove_nancy_wrong.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+11:20:47 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+Finished building: ../prove_nancy_wrong.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+11:21:40 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+Finished building: ../prove_nancy_wrong.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+duplicate symbol _main in:
+    ./adj_matrix.o
+    ./prove_nancy_wrong.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [adj_matrix] Error 1
+11:21:47 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+11:22:04 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+Finished building: ../prove_nancy_wrong.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+11:24:00 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+Finished building: ../prove_nancy_wrong.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+11:24:36 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+Finished building: ../prove_nancy_wrong.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+11:24:50 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+Finished building: ../prove_nancy_wrong.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+11:25:38 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+Finished building: ../prove_nancy_wrong.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+11:26:18 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+Finished building: ../prove_nancy_wrong.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+11:26:44 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+Finished building: ../prove_nancy_wrong.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+11:27:20 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+Finished building: ../prove_nancy_wrong.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+11:28:30 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+../prove_nancy_wrong.cpp:42:13: error: reference to overloaded function could not be resolved; did you mean to call it?
+                                count <<endl;
+                                        ^~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:1032:1: note: possible target for call
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+1 error generated.
+make: *** [prove_nancy_wrong.o] Error 1
+11:28:41 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+../prove_nancy_wrong.cpp:34:9: warning: unused variable 'divide' [-Wunused-variable]
+        double divide = 4;
+               ^
+1 warning generated.
+Finished building: ../prove_nancy_wrong.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+11:29:25 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+../prove_nancy_wrong.cpp:34:9: warning: unused variable 'divide' [-Wunused-variable]
+        double divide = 4;
+               ^
+1 warning generated.
+Finished building: ../prove_nancy_wrong.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+13:41:39 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building file: ../prove_nancy_wrong.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prove_nancy_wrong.d" -MT"prove_nancy_wrong.o" -o "prove_nancy_wrong.o" "../prove_nancy_wrong.cpp"
+Finished building: ../prove_nancy_wrong.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+13:43:31 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+13:44:19 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+14:06:04 **** Incremental Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 
+19:47:35 **** Build of configuration Debug for project adj_matrix ****
+make all 
+Building file: ../adj_matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"adj_matrix.d" -MT"adj_matrix.o" -o "adj_matrix.o" "../adj_matrix.cpp"
+Finished building: ../adj_matrix.cpp
+ 
+Building target: adj_matrix
+Invoking: MacOS X C++ Linker
+g++  -o "adj_matrix"  ./adj_matrix.o ./prove_nancy_wrong.o   
+Finished building target: adj_matrix
+ 

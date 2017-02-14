@@ -1,0 +1,13 @@
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+	ifstream fileIn;
+	fileIn.open("fileIn.txt");
+
+	return EXIT_SUCCESS;
+}

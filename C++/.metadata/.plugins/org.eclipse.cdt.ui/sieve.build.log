@@ -1,15 +1,7 @@
-14:07:24 **** Incremental Build of configuration Debug for project sieve ****
-make all 
-Building file: ../sieve.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sieve.d" -MT"sieve.o" -o "sieve.o" "../sieve.cpp"
-Finished building: ../sieve.cpp
- 
-Building target: sieve
-Invoking: MacOS X C++ Linker
-g++  -o "sieve"  ./sieve.o   
-Finished building target: sieve
+09:46:02 **** Clean-only build of configuration Debug for project sieve ****
+make clean 
+rm -rf  ./sieve.o  ./sieve.d  sieve
  
 
-14:07:25 Build Finished (took 1s.1ms)
+09:46:02 Build Finished (took 72ms)
 

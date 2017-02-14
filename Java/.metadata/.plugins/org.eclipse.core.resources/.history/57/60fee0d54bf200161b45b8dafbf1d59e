@@ -1,0 +1,13 @@
+
+public class Account {
+	String ssn;
+	String accountNumber;
+	int accountType;
+	double balance;
+	public void setAccountInfo(String ssn,String accountNumber,){
+		
+	}
+	public static void main(String args){
+		
+	}
+}

@@ -1,0 +1,20 @@
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+	ifstream fileIn;
+	fileIn.open("fileIn.txt");
+	if(fileIn.fail())
+	{
+		cout << "Error on opening file" << endl;
+	}
+	int eatNum;
+	int numberEdges = fileIn >> eatNum;
+	int numberVertices = fileIn >> eatNum;;
+	int ara[numberVertices][numberVertices];
+	return EXIT_SUCCESS;
+}

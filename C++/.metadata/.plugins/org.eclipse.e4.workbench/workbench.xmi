@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_srbs0eKBEea7OeUNn-i5gQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_srbs0uKBEea7OeUNn-i5gQ" bindingContexts="_srbs1OKBEea7OeUNn-i5gQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;sieve.cpp&quot; tooltip=&quot;sieve/sieve.cpp&quot;>&#xA;&lt;persistable path=&quot;/sieve/sieve.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;HelloWorld.cpp&quot; tooltip=&quot;HelloWorld/src/HelloWorld.cpp&quot;>&#xA;&lt;persistable path=&quot;/HelloWorld/src/HelloWorld.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;adj_matrix.cpp&quot; tooltip=&quot;adj_matrix/adj_matrix.cpp&quot;>&#xA;&lt;persistable path=&quot;/adj_matrix/adj_matrix.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;prove_nancy_wrong.cpp&quot; tooltip=&quot;adj_matrix/prove_nancy_wrong.cpp&quot;>&#xA;&lt;persistable path=&quot;/adj_matrix/prove_nancy_wrong.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;t1.txt&quot; tooltip=&quot;adj_matrix/t1.txt&quot;>&#xA;&lt;persistable path=&quot;/adj_matrix/t1.txt&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;sieve.cpp&quot; tooltip=&quot;sieve/sieve.cpp&quot;>&#xA;&lt;persistable path=&quot;/sieve/sieve.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;HelloWorld.cpp&quot; tooltip=&quot;HelloWorld/src/HelloWorld.cpp&quot;>&#xA;&lt;persistable path=&quot;/HelloWorld/src/HelloWorld.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_srbs0uKBEea7OeUNn-i5gQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_s9FdgeKBEea7OeUNn-i5gQ" label="%trimmedwindow.label.eclipseSDK" x="90" y="37" width="1440" height="797">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_srbs0uKBEea7OeUNn-i5gQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_s9FdgeKBEea7OeUNn-i5gQ" label="%trimmedwindow.label.eclipseSDK" x="90" y="37" width="1440" height="900">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -11,7 +11,6 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1485295739595"/>
     <tags>topLevel</tags>
-    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_s9FdgeKBEea7OeUNn-i5gQ" selectedElement="_s9FdguKBEea7OeUNn-i5gQ" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_s9FdguKBEea7OeUNn-i5gQ" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_tFi18OKBEea7OeUNn-i5gQ">
         <children xsi:type="advanced:Perspective" xmi:id="_tFi18OKBEea7OeUNn-i5gQ" elementId="org.eclipse.cdt.ui.CPerspective" selectedElement="_tFi18eKBEea7OeUNn-i5gQ" label="C/C++" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/view16/c_pers.gif">
@@ -128,17 +127,29 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_tFTlYOKBEea7OeUNn-i5gQ" elementId="org.eclipse.ui.editorss" selectedElement="_tFTlYeKBEea7OeUNn-i5gQ">
-      <children xsi:type="basic:PartStack" xmi:id="_tFTlYeKBEea7OeUNn-i5gQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_pnEKsOakEeaiIb6TTIJk9A">
+      <children xsi:type="basic:PartStack" xmi:id="_tFTlYeKBEea7OeUNn-i5gQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_YaLj8O4jEeagGr-UmFEcqA">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_pnEKsOakEeaiIb6TTIJk9A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="sieve.cpp" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;sieve.cpp&quot; partName=&quot;sieve.cpp&quot; title=&quot;sieve.cpp&quot; tooltip=&quot;sieve/sieve.cpp&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/sieve/sieve.cpp&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;320&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_YaLj8O4jEeagGr-UmFEcqA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="adj_matrix.cpp" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;adj_matrix.cpp&quot; partName=&quot;adj_matrix.cpp&quot; title=&quot;adj_matrix.cpp&quot; tooltip=&quot;adj_matrix/adj_matrix.cpp&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/adj_matrix/adj_matrix.cpp&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;371&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
           <tags>removeOnHide</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_pNcs0O4jEeagGr-UmFEcqA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="t1.txt" iconURI="platform:/plugin/org.eclipse.ui.editors/icons/full/obj16/file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;t1.txt&quot; partName=&quot;t1.txt&quot; title=&quot;t1.txt&quot; tooltip=&quot;adj_matrix/t1.txt&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/adj_matrix/t1.txt&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;10&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.ui.DefaultTextEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_g3JMgO8QEeaS_vS_lU9H_Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="prove_nancy_wrong.cpp" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;prove_nancy_wrong.cpp&quot; partName=&quot;prove_nancy_wrong.cpp&quot; title=&quot;prove_nancy_wrong.cpp&quot; tooltip=&quot;adj_matrix/prove_nancy_wrong.cpp&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/adj_matrix/prove_nancy_wrong.cpp&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+          <tags>removeOnHide</tags>
         </children>
       </children>
     </sharedElements>
@@ -239,7 +250,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_s95V0OKBEea7OeUNn-i5gQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_jTKa0OphEeagHJI1iE-rPA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_sr3x5-KBEea7OeUNn-i5gQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_rnsqgPAMEeaMsYLcpogAPQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_sr3x5-KBEea7OeUNn-i5gQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_s9584OKBEea7OeUNn-i5gQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -263,7 +274,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_s9585OKBEea7OeUNn-i5gQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_jTNeIOphEeagHJI1iE-rPA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_sr2jxeKBEea7OeUNn-i5gQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_rnvGwPAMEeaMsYLcpogAPQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_sr2jxeKBEea7OeUNn-i5gQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_s9585eKBEea7OeUNn-i5gQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -654,7 +665,7 @@
       <tags>platform:cocoa</tags>
       <parameters xmi:id="_sshR--KBEea7OeUNn-i5gQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.search.ui.views.SearchView"/>
     </bindings>
-    <bindings xmi:id="_i6ifcephEeagHJI1iE-rPA" keySequence="COMMAND+CTRL+F" command="_ss994-KBEea7OeUNn-i5gQ"/>
+    <bindings xmi:id="_rTTu4fAMEeaMsYLcpogAPQ" keySequence="COMMAND+CTRL+F" command="_ss994-KBEea7OeUNn-i5gQ"/>
   </bindingTables>
   <bindingTables xmi:id="_ssWS3-KBEea7OeUNn-i5gQ" elementId="org.eclipse.cdt.ui.cEditorScope" bindingContext="_sr8DQ-KBEea7OeUNn-i5gQ">
     <bindings xmi:id="_ssWS4OKBEea7OeUNn-i5gQ" keySequence="COMMAND+SHIFT+C" command="_sr0Hj-KBEea7OeUNn-i5gQ"/>
@@ -841,7 +852,7 @@
     <bindings xmi:id="_ssgq9eKBEea7OeUNn-i5gQ" keySequence="ESC CTRL+F" command="_sr0ubeKBEea7OeUNn-i5gQ"/>
   </bindingTables>
   <bindingTables xmi:id="_ss-k9uKBEea7OeUNn-i5gQ" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_srbs1-KBEea7OeUNn-i5gQ">
-    <bindings xmi:id="_i6jGgOphEeagHJI1iE-rPA" keySequence="M1+W" command="_ss-k9OKBEea7OeUNn-i5gQ"/>
+    <bindings xmi:id="_rTUV8PAMEeaMsYLcpogAPQ" keySequence="M1+W" command="_ss-k9OKBEea7OeUNn-i5gQ"/>
   </bindingTables>
   <bindingTables xmi:id="_tFUzgeKBEea7OeUNn-i5gQ" bindingContext="_tFUzgOKBEea7OeUNn-i5gQ"/>
   <bindingTables xmi:id="_tFUzg-KBEea7OeUNn-i5gQ" bindingContext="_tFUzguKBEea7OeUNn-i5gQ"/>

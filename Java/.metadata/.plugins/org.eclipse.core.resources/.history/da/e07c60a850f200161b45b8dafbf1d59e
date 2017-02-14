@@ -1,0 +1,24 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+public class Bank {
+	void readData(String path) {
+		int numOfCustomers = 0;
+		int numOfAccounts = 0;
+		String line = null;
+		try{
+			FileReader fileReader = new FileReader(path);
+			BufferedReader bufferedReader = new BufferedReader(fileReader);
+			
+		}
+		catch(FileNotFoundException ex)
+		{
+            System.out.println("Unable to open file: " + path);
+		}
+		
+	}
+	public static void main(String args){
+		
+	}
+}

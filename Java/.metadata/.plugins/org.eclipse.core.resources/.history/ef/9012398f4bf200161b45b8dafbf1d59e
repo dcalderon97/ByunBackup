@@ -1,0 +1,10 @@
+
+public class Account {
+	String ssn;
+	String accountNumber;
+	int accountType;
+	double balance;
+	void setAccountInfo(String ssn,String accountNumber,){
+		
+	}
+}

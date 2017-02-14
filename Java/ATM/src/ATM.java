@@ -1,4 +1,10 @@
-
+/*
+ Title:ATM.java
+ Abstract: This program simulates a small bank.
+ Author: Daniel Calderon
+ ID: 3083
+ Date: 2/5/2017
+ */
 public class ATM {
 	//Class to hold user information
 	public  class PATRON{
@@ -8,7 +14,7 @@ public class ATM {
 		//Constructor
 		PATRON()
 		{
-			patronName = "Apple";
+			patronName = null;
 			pinNumber = 0;
 			patronFunds = 0;
 		}
@@ -146,9 +152,10 @@ public class ATM {
 	void displayMenu()
 	{
 		System.out.println("===== ATM Transaction Menu =====");
-		System.out.println("1. Withdrawl");
-		System.out.println("2. Deposit");
-		System.out.println("3. Transfer");
+		System.out.println("  1. Withdrawl");
+		System.out.println("  2. Deposit");
+		System.out.println("  3. Transfer");
+	
 	}
 	void withdrawal(String name,int pin, double amount)
 	{
@@ -161,6 +168,7 @@ public class ATM {
 					users[i].deductFunds(amount);
 					successWithdrawl++;
 					System.out.println("Succeed - withdrawl: " +users[i].getName() + " new balance: $"+ users[i].getFunds() );
+					bankBalance -= amount;
 					return;
 				}
 			}
@@ -179,6 +187,7 @@ public class ATM {
 					users[i].addFunds(amount);
 					successDeposit++;
 					System.out.println("Succeed - Deposit: " +users[i].getName() + " new balance: $"+ users[i].getFunds() );
+					bankBalance += amount;
 					return;
 				}
 			}

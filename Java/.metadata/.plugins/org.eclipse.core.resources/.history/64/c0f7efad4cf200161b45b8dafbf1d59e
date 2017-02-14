@@ -1,0 +1,25 @@
+
+public class Account {
+	String ssn;
+	String accountNumber;
+	int accountType;
+	double balance;
+	String getSSN(){
+		return this.ssn;
+	}
+	String getAccountNumber(){
+		return this.accountNumber;
+	}
+	int getAccountType(){
+		return accountType;
+	}
+	double getBalance(){
+		return this.balance;
+	}
+	public void setAccountInfo(String ssn,String accountNumber,int type,double balance){
+		this.ssn = ssn;
+		this.accountNumber = accountNumber;
+		this.accountType = type;
+		this.balance = balance;
+	}
+}

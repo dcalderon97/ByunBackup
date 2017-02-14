@@ -1,0 +1,44 @@
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+	ifstream fileIn;
+	fileIn.open("/Users/danielcalderon/Documents/Eclipse/C++/adj_matrix/t1.txt");
+	if(fileIn.fail())
+	{
+		cout << "Error on opening file" << endl;
+	}
+	int eatNum;
+	int v1,v2;
+	fileIn >> eatNum;
+	int numberVertices = eatNum;
+	fileIn >> eatNum;
+	int numberEdges = eatNum;
+	int ara[numberVertices][numberVertices];
+	cout << numberVertices << endl;s
+	cout << numberEdges << endl;
+	for(int i = 0 ; i < numberVertices;i++)
+	{
+		for(int j = 0; j < numberVertices;j++)
+		{
+			ara[i][j] = 0;
+		}
+	}
+	while ( fileIn >> v1 >> v2)
+	{
+		ara[v1][v2] = 1;
+	}
+	for(int i = 0 ; i < numberVertices;i++)
+	{
+		for(int j = 0; j < numberVertices;j++)
+		{
+			cout << ara[i][j] << "";
+		}
+		cout << endl;
+	}
+	return EXIT_SUCCESS;
+}

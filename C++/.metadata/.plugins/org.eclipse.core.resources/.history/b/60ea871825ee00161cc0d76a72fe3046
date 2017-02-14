@@ -1,0 +1,19 @@
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+	ifstream fileIn;
+	fileIn.open("fileIn.txt");
+	if(fileIn.fail())
+	{
+		cout << "Error on opening file" << endl;
+	}
+	int numberEdges;
+	int numberVertices;
+
+	return EXIT_SUCCESS;
+}

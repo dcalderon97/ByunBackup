@@ -1,0 +1,58 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+public class Bank {
+	String bankName;
+	int numOfCustomers;
+	Customer[] customers = new Customer[10];
+	
+	Bank(){
+		bankName = null;
+	}
+	Bank(String name){
+		this.bankName = name;
+	}
+	void readData(String path) {
+		int numCustomers = 0;
+		int numOfAccounts = 0;
+		int count = 0;
+		String line = null;
+		try{
+			FileReader fileReader = new FileReader(path);
+			BufferedReader br = new BufferedReader(fileReader);
+			numCustomers = br.read();
+			line = null;
+			while(count < numCustomers)
+			{
+				line = br.readLine();
+				String [] values = line.split(",");
+				customers [numOfCustomers] = new Customer();
+				customers[numOfCustomers].setCustomerInfo(values[0],values[1], values[2], values[3]);
+				numOfCustomers++;
+			}
+			line = null;
+			
+		}
+		catch(FileNotFoundException ex)
+		{
+            System.out.println("Unable to open file: " + path);
+		}
+		catch (IOException ex){
+			System.out.println("Unable to open file: " + path);
+		}
+		
+	}
+	void bankInfo(){
+		System.out.println("Bank Name:  "+ bankName );
+		System.out.println("Number of Customers: "+ numOfCustomers);
+		for(int i =0; i < numOfCustomers;i++)
+		{
+			System.out.println(customers[i].getCustomerName() + ": " +customers[i].getCustomerSSN() );
+		}
+	}
+	public static void main(String[] args){
+		Bank csumbBank = new Bank("CSUMB")
+		
+	}
+}

@@ -1,0 +1,9 @@
+
+public class Bank {
+	void readInfo(){
+		
+	}
+	public static void main(String args){
+		
+	}
+}
