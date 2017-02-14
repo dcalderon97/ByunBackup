@@ -9,6 +9,119 @@ public class Bank {
 	double totalBalance;
 	Customer[] customers = new Customer[10];
 	Account[] accounts = new Account[10];
+	void newAccount(String ssn, double accountNum,int accountType,double balance)
+	{
+		for(int j = 0 ; j < numOfAccounts;j++)
+		{
+	
+			if(accounts[j].getAccountNumber().equals(Integer.toString((int)accountNum)))
+			{
+		
+				System.out.println("Account creation failed - Account " +accounts[j].getAccountNumber()+ " already exists" );
+				return ;
+			}
+		}
+		for(int i = 0 ; i< numOfCustomers;i++)
+		{
+			
+			if(customers[i].getCustomerSSN().equals(ssn) )
+			{
+				if(accountType == 1)
+				{
+						if(customers[i].getNumCheckings() == 1){
+							System.out.println("Account creation failes - " +customers[i].getCustomerName() + "(" + customers[i].getCustomerSSN()+")" +
+									" already has a checking account");
+							return;
+						}
+						
+				}
+				else if(accountType == 2)
+				{
+						if(customers[i].getNumSavings() == 1){
+							System.out.println("Account creation failed - " +customers[i].getCustomerName() + "(" + customers[i].getCustomerSSN()+")" +
+										" already has a saving account");
+							return;
+						}
+						
+				}
+			}
+		}
+		accounts[numOfAccounts] = new Account();
+		accounts[numOfAccounts].setAccountInfo(ssn, Double.toString(accountNum), Integer.toString(accountType), Double.toString(balance), customers, numOfCustomers);
+		System.out.print("Account creation - Number " +(int)accountNum + ", " + "Customer: " );
+		for(int i = 0 ; i < numOfCustomers;i++)
+		{
+			if(customers[i].getCustomerSSN().equals(ssn) )
+				System.out.println(customers[i].getCustomerName());
+		}
+		numOfAccounts++;
+	}
+	void newCustomer(String name,String address,double zipCode,String ssn)
+	{
+		for(int i = 0 ; i < numOfCustomers;i++)
+		{
+//			System.out.println(ssn);
+//			System.out.println(customers[i].getCustomerSSN());
+			if(customers[i].getCustomerSSN().equals(ssn))
+			{
+				System.out.println( name +" is NOT added - Duplicated SSN");
+				return;
+			}
+			
+		}
+		customers[numOfCustomers] = new Customer();
+		customers[numOfCustomers].setCustomerInfo(name, address, Double.toString(zipCode), ssn);
+		numOfCustomers++;
+	}
+	boolean closeAccount(double accountNum){
+		for(int i = 0 ; i < numOfAccounts;i++)
+		{
+			if(accountNum == Double.parseDouble(accounts[i].getAccountNumber()))
+			{
+				accounts[i].deleteAccount();
+				return true;
+			}
+		}
+		return false;
+	}
+	void withdraw(double accountNum,double balance)
+	{
+		for(int i = 0 ; i < numOfAccounts; i++)
+		{
+			if(accountNum == Double.parseDouble(accounts[i].getAccountNumber()))
+			{
+				accounts[i].setAccountBalanceWithdraw(balance);
+			}
+		}
+	}
+	void deposit(double accountNum,double balance){
+		for(int i = 0 ; i < numOfAccounts; i++)
+		{
+			if(accountNum == Double.parseDouble(accounts[i].getAccountNumber()))
+			{
+				accounts[i].setAccountBalanceDeposit(balance);
+			}
+		}
+	}
+	void accountInfo(double acNum){
+		for(int i = 0; i < numOfAccounts; i++)
+		{
+			if(acNum == Double.parseDouble(accounts[i].getAccountNumber())){
+				System.out.println("Number: " + accounts[i].getAccountNumber());
+				if( accounts[i].getAccountType().equals("1"))
+				{
+					System.out.println("Checking");
+				}
+				else{
+					System.out.println("Savings");
+				}
+				System.out.println("Balance: $" + accounts[i].getAccountBalance());
+				System.out.println("Customer: " + accounts[i].getAccountName());
+				return;
+			}
+		}
+		System.out.println("Account (" + acNum + ") does not exist.");
+	}
  	Bank(){
 		bankName = null;
 	}
@@ -42,7 +155,7 @@ public class Bank {
 				line = br.readLine();
 				String [] values = line.split(",");
 				accounts[numOfAccounts] = new Account();
-				accounts[numOfAccounts].setAccountInfo(values[0],values[1], values[2], values[3]);
+				accounts[numOfAccounts].setAccountInfo(values[0],values[1], values[2], values[3],customers,numCustomers);
 				numOfAccounts++;
 				count++;
 			}
@@ -74,13 +187,17 @@ public class Bank {
 		System.out.println("Total balance:$ " + totalBalance);
 	}
 	public static void main(String[] args){
-		 Bank csumbBank = new Bank("CSUMB");
-		    System.out.println("========== READ DATA ==========");
-		    csumbBank.readData("/Users/danielcalderon/Documents/Eclipse/Java/Bank/test1.txt");
-		    System.out.println("========== DONE ==========");
-		    System.out.println("\n========== BANK INFORMATION ==========");
-		    csumbBank.bankInfo();
-
+	    Bank csumbBank = new Bank("CSUMB");
+	    csumbBank.readData("/Users/danielcalderon/Documents/Eclipse/Java/Bank/test1.txt");
+	    System.out.println("========== NEW CUSTOMERS =========="); 
+	    csumbBank.newCustomer("Bob Smith", "123 University Center",93955, "123-45-6789"); 
+	    csumbBank.newCustomer("Unknown Smith", "123 University Center",93955, "777-77-7777");
+	    System.out.println("\n========== NEW ACCOUNTS ==========");
+	    csumbBank.newAccount("777-77-7777", 4000, 1, 100.50);
+	    csumbBank.newAccount("123-45-7777", 2000, 1, 100.50);
+	    csumbBank.newAccount("123-45-7777", 4000, 1, 100.50);
+	    System.out.println("\n========== ACCOUNT INFO ==========");
+	    csumbBank.accountInfo(7000);
 		
 	}
 }

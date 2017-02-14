@@ -5,11 +5,26 @@ public class Customer {
 	String address;
 	String zipCode;
 	String ssn;
+	int numCheckings;
+	int numSavings;
 	Customer(){
 		name = null;
 		address =null;
 		zipCode = null;
 		ssn = null;
+	}
+	int getNumCheckings()
+	{
+		return this.numCheckings;
+	}
+	int getNumSavings(){
+		return this.numSavings;
+	}
+	void incrementNumCheckings(){
+		numCheckings++;
+	}
+	void incrementNumSavings(){
+		numSavings++;
 	}
 	String getCustomerName(){
 		return this.name;
