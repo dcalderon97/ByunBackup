@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+
+public class Order {
+	private int orderNum;
+	private double totalPrice;
+	ArrayList<Product> items = new  ArrayList<Product> ();
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

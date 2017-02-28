@@ -1,0 +1,58 @@
+/*
+ * Title: Order
+ * Abstract: 
+ * Author: Terra Fenton
+ * ID: 8888
+ * Date: 2/26/17
+ */
+
+import java.util.ArrayList;
+
+public class Order {
+	private int orderNum;
+	private double totalPrice;
+	private ArrayList<Product> items = new  ArrayList<Product> ();
+
+	Order(int num){
+		this.orderNum = num;
+	}
+	
+	//************** Getters ********************
+	public int getOrderNum(){
+		return orderNum;
+	}
+
+	public double getTotalPrice(){
+		return totalPrice;
+	}
+
+	public void getItems(){
+		int i= 1;
+		for(Product product: items){
+			System.out.format("Item %d: %s (No. %d): $ %.2f \n", i, product.getProductName(), product.getProductNum(), product.getPrice());
+			i++;
+		}
+	}
+	//************** Setters ********************
+	public void setTotalPrice(double totalPrice){
+		this.totalPrice += totalPrice;
+	}
+	
+	public void setItems(ArrayList<Product> items){
+		this.items = items;
+	}
+	
+	public void setOrderNum(int orderNum){
+		this.orderNum = orderNum;
+	}
+
+	//************** Other Methods ********************
+	public void addItem(int num, String name, double d){
+		items.add(new Product(num,name,d));
+	}
+
+	@Override
+	public String toString(){
+		return "Order [orderNum = " + orderNum + ", totalPrice = " + totalPrice + ", items = " + items + "]";
+	}
+}

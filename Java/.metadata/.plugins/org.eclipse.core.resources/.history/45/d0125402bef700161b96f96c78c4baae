@@ -1,0 +1,42 @@
+import java.util.ArrayList;
+
+public class Order {
+	Order(int num)
+	{
+		this.orderNum = num;
+	}
+	private int orderNum;
+	private double totalPrice;
+	private ArrayList<Product> items = new  ArrayList<Product> ();
+	public void addItem(int num, String name, double d)
+	{
+		items.add(new Product(num,name,d));
+	}
+	public int getOrderNum() {
+		return orderNum;
+	}
+	public void setOrderNum(int orderNum) {
+		this.orderNum = orderNum;
+	}
+	public double getTotalPrice() {
+		return totalPrice;
+	}
+	public void setTotalPrice(double totalPrice) {
+		this.totalPrice = totalPrice;
+	}
+	public ArrayList<Product> getItems() {
+		return items;
+	}
+	public void setItems(ArrayList<Product> items) {
+		this.items = items;
+	}
+	@Override
+	public String toString() {
+		return "Order [orderNum=" + orderNum + ", totalPrice=" + totalPrice + ", items=" + items + "]";
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

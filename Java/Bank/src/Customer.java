@@ -1,4 +1,9 @@
-
+/*
+ * Title: Customer.java
+ * Abstract: Creates a customer object when called
+ * Author: Daniel Calderon
+ * Date: 2/15/17
+ */
 public class Customer {
 	
 	String name;

@@ -1,0 +1,11 @@
+
+public class Product {
+	private int productNum;
+	private String name;
+	private double unitPrice;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

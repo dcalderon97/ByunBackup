@@ -1,3 +1,9 @@
+/*
+ * Title: Bank.java
+ * Abstract: Pieces all classes together and creates a small bank
+ * Author: Daniel Calderon
+ * Date: 2/15/17
+ */
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -71,6 +77,7 @@ public class Bank {
 		}
 		customers[numOfCustomers] = new Customer();
 		customers[numOfCustomers].setCustomerInfo(name, address, Double.toString(zipCode), ssn);
+		System.out.println(customers[numOfCustomers].getCustomerName() + " is added");
 		numOfCustomers++;
 	}
 	boolean closeAccount(double accountNum){

@@ -1,4 +1,9 @@
-
+/*
+ * Title: Account.java
+ * Abstract: Deals with creating an account object.
+ * Author: Daniel Calderon
+ * Date: 2/15/17
+ */
 public class Account {
 	String ssn;
 	String accountNumber;
